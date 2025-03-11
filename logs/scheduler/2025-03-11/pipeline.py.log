@@ -1,0 +1,25 @@
+[2025-03-11T14:27:06.040+0000] {processor.py:186} INFO - Started process (PID=158) to work on /opt/airflow/dags/pipeline.py
+[2025-03-11T14:27:06.041+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pipeline.py for tasks to queue
+[2025-03-11T14:27:06.086+0000] {logging_mixin.py:190} INFO - [2025-03-11T14:27:06.085+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline.py
+[2025-03-11T14:27:06.140+0000] {processor.py:925} INFO - DAG(s) 'projet_data_lake_pipeline' retrieved from /opt/airflow/dags/pipeline.py
+[2025-03-11T14:27:06.464+0000] {logging_mixin.py:190} INFO - [2025-03-11T14:27:06.463+0000] {override.py:1858} INFO - Created Permission View: can edit on DAG:projet_data_lake_pipeline
+[2025-03-11T14:27:06.471+0000] {logging_mixin.py:190} INFO - [2025-03-11T14:27:06.470+0000] {override.py:1858} INFO - Created Permission View: can delete on DAG:projet_data_lake_pipeline
+[2025-03-11T14:27:06.475+0000] {logging_mixin.py:190} INFO - [2025-03-11T14:27:06.475+0000] {override.py:1858} INFO - Created Permission View: can read on DAG:projet_data_lake_pipeline
+[2025-03-11T14:27:06.475+0000] {logging_mixin.py:190} INFO - [2025-03-11T14:27:06.475+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2025-03-11T14:27:06.484+0000] {logging_mixin.py:190} INFO - [2025-03-11T14:27:06.484+0000] {dag.py:3234} INFO - Creating ORM DAG for projet_data_lake_pipeline
+[2025-03-11T14:27:06.493+0000] {logging_mixin.py:190} INFO - [2025-03-11T14:27:06.493+0000] {dag.py:4138} INFO - Setting next_dagrun for projet_data_lake_pipeline to 2025-03-10 00:00:00+00:00, run_after=2025-03-11 00:00:00+00:00
+[2025-03-11T14:27:06.514+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pipeline.py took 0.497 seconds
+[2025-03-11T14:27:36.785+0000] {processor.py:186} INFO - Started process (PID=163) to work on /opt/airflow/dags/pipeline.py
+[2025-03-11T14:27:36.787+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pipeline.py for tasks to queue
+[2025-03-11T14:27:36.790+0000] {logging_mixin.py:190} INFO - [2025-03-11T14:27:36.790+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline.py
+[2025-03-11T14:27:36.804+0000] {processor.py:925} INFO - DAG(s) 'projet_data_lake_pipeline' retrieved from /opt/airflow/dags/pipeline.py
+[2025-03-11T14:27:36.834+0000] {logging_mixin.py:190} INFO - [2025-03-11T14:27:36.833+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2025-03-11T14:27:36.862+0000] {logging_mixin.py:190} INFO - [2025-03-11T14:27:36.862+0000] {dag.py:4138} INFO - Setting next_dagrun for projet_data_lake_pipeline to 2025-03-10 00:00:00+00:00, run_after=2025-03-11 00:00:00+00:00
+[2025-03-11T14:27:36.885+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pipeline.py took 0.108 seconds
+[2025-03-11T14:28:06.999+0000] {processor.py:186} INFO - Started process (PID=168) to work on /opt/airflow/dags/pipeline.py
+[2025-03-11T14:28:06.999+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pipeline.py for tasks to queue
+[2025-03-11T14:28:07.001+0000] {logging_mixin.py:190} INFO - [2025-03-11T14:28:07.001+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline.py
+[2025-03-11T14:28:07.011+0000] {processor.py:925} INFO - DAG(s) 'projet_data_lake_pipeline' retrieved from /opt/airflow/dags/pipeline.py
+[2025-03-11T14:28:07.033+0000] {logging_mixin.py:190} INFO - [2025-03-11T14:28:07.033+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2025-03-11T14:28:07.052+0000] {logging_mixin.py:190} INFO - [2025-03-11T14:28:07.052+0000] {dag.py:4138} INFO - Setting next_dagrun for projet_data_lake_pipeline to 2025-03-10 00:00:00+00:00, run_after=2025-03-11 00:00:00+00:00
+[2025-03-11T14:28:07.065+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pipeline.py took 0.074 seconds
