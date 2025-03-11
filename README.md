@@ -26,7 +26,7 @@ L'objectif est de passer les données brutes à travers plusieurs étapes de tra
 
 ### 1️⃣ Cloner le projet  
 ```bash
-git clone https://github.com/DJAMPOU/projet_datalakes.git
+git clone https://github.com/DJAMPOU/projet_datalakes.git -b master
 cd projet_datalakes
 ```
 ### 2️⃣ Lancer le projet avec le script
