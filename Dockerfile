@@ -20,5 +20,6 @@ RUN export KAGGLE_CONFIG_DIR='/home/airflow/.kaggle/'
 # Passer à l'utilisateur airflow pour les prochaines opérations
 USER airflow
 
-RUN pip install kaggle
-RUN pip install geopy
+COPY ./requirements.txt /app/
+WORKDIR /app
+RUN pip install -r requirements.txt

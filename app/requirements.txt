@@ -1,7 +1,0 @@
-boto3
-requests
-kaggle
-pandas
-mysql-connector-python
-geopy
-apache-airflow

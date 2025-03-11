@@ -10,24 +10,16 @@ def download_and_unzip_kaggle_competition(dataset, output_path):
     """Télécharge un dataset depuis une compétition Kaggle et le décompresse."""
 
     # Vérification du fichier kaggle.json
-    print("ok1")
     kaggle_json_path = os.path.expanduser("~/.kaggle/kaggle.json")
-    print("ok2")
+
     if not os.path.exists(kaggle_json_path):
         raise FileNotFoundError("Le fichier kaggle.json est introuvable. Veuillez placer votre fichier kaggle.json dans le dossier ~/.kaggle/")
 
     # Assurer que le dossier .kaggle est présent pour l'authentification
     os.environ["KAGGLE_CONFIG_DIR"] = os.path.dirname(kaggle_json_path)
-    print("ok3")
+
     # Créer le répertoire de destination si il n'existe pas
     os.makedirs(output_path, exist_ok=True)
-    print("ok4")
-
-    # Télécharger le dataset en utilisant la commande kaggle sans l'option --unzip
-    command = [
-        "sudo", "kaggle", "competitions", "download", "-c", dataset,
-        "-p", output_path
-    ]
 
     api = KaggleApi()
     api.authenticate()
@@ -35,9 +27,7 @@ def download_and_unzip_kaggle_competition(dataset, output_path):
 
     try:
         # Exécution de la commande
-        #subprocess.run(command, check=True, capture_output=True)
         api.competition_download_files(dataset, path=output_path, force=True)
-        print("ok6")
         print(f"Dataset téléchargé dans {output_path}")
 
         # Vérifier si le fichier téléchargé est un zip et le décompresser

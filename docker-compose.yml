@@ -117,12 +117,6 @@ services:
       - ./logs:/opt/airflow/logs
       - ./plugins:/opt/airflow/plugins
       - ./app:/opt/airflow/scripts
-      
-
-
-
-
-
 
 volumes:
   mysql_data:
